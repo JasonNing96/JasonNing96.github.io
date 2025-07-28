@@ -1,0 +1,239 @@
+\documentclass{resume}
+% 中文 Adobe 字体支持
+\usepackage{zh_CN-Adobefonts_external}
+% 行距修正
+\usepackage{linespacing_fix}
+% FontAwesome 图标
+\usepackage{fontawesome}
+% 引用与超链接
+\usepackage{cite}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=cyan, filecolor=magenta, urlcolor=blue}
+
+\begin{document}
+\pagenumbering{gobble}  % 取消页码
+
+%-------------------- 头像 --------------------
+% \photo{images/you.jpg}
+
+
+%-------------------- 个人信息 --------------------
+\name{宁嘉鸿 (Jiahong Ning)}
+\contactInfo{(+86) 13768410701}{njh1195@gmail.com}
+\otherInfo{https://github.com/JasonNing96}{}{}
+
+\yourphoto{0.15}
+%-------------------- 个人简介 --------------------
+% \section{}：
+% 熟悉技术与市场，擅长资源整合与团队管理；博士期间协助导师申请国家重点研发计划。
+
+%-------------------- 研究兴趣 --------------------
+\section{个人简介}
+专注 \textbf{MEC移动边缘计算} 与 \textbf{LLM 推理加速}：涵盖 KV-Cache 内存一致性管理、Speculative Decoding、端-边-云协同卸载与资源调度，研究聚焦 \textbf{受限条件下的资源分配与系统优化}。工作上深刻理解 \textbf{市场需求与学术研究之间的 GAP}，具备 \textbf{带队与项目管理} 能力，曾主导团队进行 \textbf{国家重点研发计划} 的申报与推进，辅助导师推进项目\textbf{立项—实施—结项}周期闭环。
+\begin{itemize}[parsep=0.5ex]
+  \item 边缘/云协同LLM推理系统：KV缓存、内存一致性管理与LLM模型推理加速技术。
+  \item 6G 通信网络下的生成式 AI 资源调度与部署优化。
+  \item 强化学习、联邦学习、分布式网络，计算一体化架构。
+\end{itemize}
+\vspace{3mm}
+%-------------------- 教育背景 --------------------
+\section{教育背景}
+\datedsubsection{\textbf{新加坡信息通信研究所（A*STAR, I2R）}，新加坡，\textit{联合培养博士}}{2024.05 -- 至今}
+联培导师：Sumei Sun（新加坡工程院院士）
+\datedsubsection{\textbf{大连海事大学}，中国，\textit{交通控制与运输工程博士}}{2021.09 -- 至今}
+博士导师：杨婷婷（鹏城实验室）
+\datedsubsection{\textbf{Minnesota State University}，USA，\textit{电力电子信息技术硕士}}{2018.09 -- 2021.01}
+硕士导师：JianWu Zeng, Vincent Winstead
+\datedsubsection{\textbf{广西大学}，中国，\textit{电气工程及其自动化学士}}{2014.09 -- 2018.06}
+\vspace{3mm}
+%-------------------- 研究经历 --------------------
+\section{科研经历}
+\datedsubsection{新加坡 \textbf{A*STAR 信息通信研究所 (I2R})(外方导师：Sumei Sun(新加坡工程院院士))}{2024.05--至今}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{LLM 边缘分布式推理算法（EdgePrompt）}：面向无线网络的 \textit{分布式 KV-Cache} 推理框架；设计 KV 路由与一致性管理、分片与流式传输策略，在带宽受限场景降低端到端时延并提升吞吐。
+  \item \textbf{分布式 投机采样技术(DSSD)}：结合分支式投机解码与端-边协作，创新设计网络上/下行逻辑，提高至少2X模型加速比。受华为资助参加 42th ICML 机器学习会议。
+  \item \textbf{混合任务协同卸载算法设计（Hybrid Hierarchical Offloading）}：针对 \textit{Decoder-based} 生成模型，构建 UE→Edge→Cloud 的层级卸载与显存/带宽约束下的调度；以强化学习学习任务粒度与路径，平衡 QoS、能耗与成本。
+  \item \textbf{UAV 辅助 LLM 进行边缘推理}：在应急/通信受限等弱覆盖场景，联合 UAV 中继与 DSSD 策略进行链路自适应与任务切分，提升边缘用户服务质量与灵活性。
+  % \item \textbf{平台与评测}：搭建端-边-云协同原型与自动化评测流程，支持 KV 命中率、带宽利用、E2E 时延、吞吐等指标对比与可视化；\textit{论文成果见“学术论文”栏目}。
+\end{itemize}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Hybrid Hierarchical Offloading with reinforcement Learning，已投稿 IEEE TNSE。
+%   \item DSSD：分布式 Speculative Sampling 边缘推理方法，发表于ICML 2025。
+%   \item EdgePrompt：分布式 KV 推理框架，面向 6G 网络，发表于IEEE INFOCOM。
+%   \item UAV 辅助推理：结合强化学习与 DSSD，提升应急场景服务质量，已投稿 IEEE TCCN。
+% \end{itemize}
+
+\datedsubsection{深圳\textbf{鹏城实验室} (博士导师：杨婷婷)}{2023.03--2024.07}
+\begin{itemize}[parsep=0.5ex]
+  \item 国家重点研发计划骨干\textbf{“6G通用AI智能”}，研究大模型架构在通信网络问题中的部署和协议设计。围绕算网一体接口、网络大模型能力与部署开展工作。
+  \item 联合华为等多企业部分撰写\textbf{《IMTM2030 报告》}，洞察未来技术趋势。
+  \item \textbf{可靠分布式学习}：两阶段编码分布式学习（\textit{Two-Stage Coded DL}）与 \textit{Byzantine-robust} 联邦学习，面向边缘训练/资源异构与失效容错。
+  \item 设计端-边-云协同硬件架构，搭建通信与计算一体化平台，基于 \textbf{KubeEdge/Kube-Wireless} 实现端-边-云协同编排；感知带宽/显存/能耗的调度策略，支持推理并发、KV 迁移与一致性控制。获评\textbf{2023年度通信十大进展}。
+\end{itemize}
+
+\datedsubsection{\textbf{华为2012无线技术实验室}（合作导师：卢建明(华为Fellow)）}{2022.03--2023.02}
+\begin{itemize}[parsep=0.5ex]
+  \item 跟踪通信理论与 \textbf{3GPP} 标准进展，研究无线网络中机器学习/深度学习的应用路径。
+  \item 参与国家重点研发计划 \textbf{Network4AI} 专项，面向通信资源调度与智能编排的算法设计与验证。
+  \item 共建 \textbf{Huawei KubeEdge} 开源社区，发起并推动 \textbf{Kube-Wireless} Group，面向无线场景的容器网络。
+  \item 研究容器化边缘网络与管理工具，探索与 \textbf{5G} 网络融合的资源编排与可观测性体系。
+\end{itemize}
+\vspace{3mm}
+
+%-------------------- 工作经历 --------------------
+
+\section{实习经历}
+\datedsubsection{CloudBu 创新实验室，华为云计算技术有限公司，深圳}{2021.06--2021.09}
+\begin{itemize}[parsep=0.5ex]
+  \item 负责 Kubernetes 运维与日志系统维护，Golang 实现 Edge-Mesh 插件。
+  \item 管理 KubeEdge 社区：收集用户需求并提交功能建议。
+  \item 牵头无线工作组探索新场景，研究无线网络动态拓扑。
+\end{itemize}
+
+\datedsubsection{Wireless Tech Lab，华为 2012 无线技术实验室，深圳}{2020.07--2021.05}
+\begin{itemize}[parsep=0.5ex]
+  \item 参与 3GPP 标准和 AI 优化相关工作，Network4AI 容器网络项目。
+  \item 开发 SLAM 算法原型，推动智能感知与定位研究。
+  \item 协调项目进度与需求，撰写技术文档并进行跨团队交流。
+\end{itemize}\\
+\vspace{3mm}
+% \section{教育背景}
+% %***第一个大括号里的内容向左对齐，第二个大括号里的内容向右对齐
+% %***\textbf{}括号里的字是粗体，\textit{}括号里的字是斜体
+% \datedsubsection{\textbf{里尔大学}，法国，\textit{博士}}{2017.10 - 2020.10} 
+% 导师：Laurent CLAVIER $\&$ Malcolm EGAN
+
+% \datedsubsection{\textbf{奥尔堡大学}，丹麦，\textit{项目交换}}{2019.09 - 2019.12}
+% 导师：Troels PEDERSEN $\&$ Petar POPOVSKI (IEEE Fellow)
+
+% \datedsubsection{\textbf{西安交通大学}，中国，\textit{硕士}}{2013.09 - 2016.07}
+% 导师：罗新民
+
+% \datedsubsection{\textbf{哈尔滨工业大学}，中国，\textit{本科}}{2009.09 - 2013.07}
+% 导师：赵洪林\\
+
+\section{期刊论文}
+
+\textbf{Jiahong Ning}, Aiming Li, Ning Huang, Tingting Yang, Gary Lee, Sumei Sun,
+``MARHLO: Multi-Agent RL-Based Hybrid Offloading for Maritime MEC Network'',
+\emph{IEEE Transactions on Network Science and Engineering (TNSE)}, Under Review, 2025.\\
+
+\textbf{Jiahong Ning}, Tingting Yang, Yongyi Su,
+``SkyDSSD: A UAV-Assisted Distributed Split Speculative Decoding Framework for Edge Inference'',
+\emph{IEEE Transactions on Cognitive Communications and Networking (TCCN)}, Under Review, 2025.\\
+
+
+\textbf{Jiahong Ning}, Ce Zheng, Tingting Yang, “\href{https://www.researchgate.net/publication/392398718_DeAOff_Dependence-aware_offloading_of_decoder-based_generative_models_for_edge_computing}{DeAOff: Dependence-Aware Offloading of Decoder-Based Generative Models for Edge Computing}”, \emph{IEEE China Communications (ChinaCom)}, 2025, Accept.\\
+
+Tingting Yang, Ping Feng, Qixin Guo, Jindi Zhang, Xiufeng Zhang, \textbf{Jiahong Ning}, Xinghan Wang, Zhongyang Mao, ``\href{https://dblp.org/rec/journals/tccn/YangFGZZNWM25}{AutoHMA-LLM: Efficient Task Coordination and Execution in Heterogeneous Multi-Agent Systems Using Hybrid Large Language Models}'', \emph{IEEE Transactions on Cognitive Communications and Networking} \textbf{11}(2): 987--998, 2025.\\
+
+Tingting Yang, Xinghan Wang, \textbf{Jiahong Ning}, Yuanyuan Yang, Guoming Tang, Fangming Liu, “\href{https://arxiv.org/abs/2205.07939}{Two-Stage Coded Distributed Edge Learning: A Dynamic Partial Gradient Coding Perspective}”, \emph{IEEE Transactions on Mobile Computing (TMC)}, 2024, Accept.\\
+
+Tingting Yang, \textbf{Jiahong Ning}, Dapeng Lan, Jiawei Zhang, Yang Yang, Xudong Wang, Amir Taherkordi, “\href{https://doi.org/10.1109/MWC.004.2100038}{KubeEdge Wireless for Integrated Communication and Computing Services Everywhere}”, \emph{IEEE Wireless Communications}, 29(2):140--145, 2022.\\
+
+Hailong Feng, Zhengqi Cui, Chengzhuo Han, \textbf{Jiahong Ning}, Tingting Yang, “\href{https://doi.org/10.1109/MNET.101.2100285}{Bidirectional Green Promotion of 6G and AI: Architecture, Solutions, and Platform}”, \emph{IEEE Network}, 35(6):57--63, 2021.\\
+
+Jianwu Zeng, \textbf{Jiahong Ning}, Xia Du, Taesic Kim, Zhaoxia Yang, Vincent Winstead, “\href{https://doi.org/10.1109/TIA.2019.2948125}{A Four-port DC-DC Converter for a Standalone Wind and Solar Energy System}”, \emph{IEEE Transactions on Industry Applications}, Oct. 2019.\\
+\vspace{3mm}
+%==================== 会议论文 ====================
+\section{会议论文}
+
+\textbf{Jiahong Ning}, Ce Zheng, Tingting Yang, “\href{https://arxiv.org/abs/2507.12000}{DSSD: Efficient Edge-Device Deployment and Collaborative Inference via Distributed Split Speculative Decoding}”, \emph{In The 42nd International Conference on Machine Learning (ICML)}, 2025, Accept.\\
+
+\textbf{Jiahong Ning}, Pengyan Zhu, Ce Zheng, Gary Lee, Sumei Sun, Tingting Yang, “\href{https://arxiv.org/abs/2504.11729}{EdgePrompt: A Distributed Key-Value Inference Framework for LLMs in 6G Networks}”, \emph{In 2025 IEEE International Conference on Computer Communications (INFOCOM)}, London, UK, 2025, Accept.\\
+
+Dongxiao Hu, Dapeng Lan, Yu Liu, \textbf{Jiahong Ning}, Jia Wang, Yun Yang, Zhibo Pang, ``\href{https://dblp.org/rec/conf/isie/HuLLNWYP24}{Embodied AI Through Cloud-Fog Computing: A Framework for Everywhere Intelligence}'', \emph{In 2024 IEEE International Symposium on Industrial Electronics (ISIE)}, Ulsan, South Korea, 2024, pp. 1--4.\\
+
+Zechen He, Jiale Wang, Ping Feng, \textbf{Jiahong Ning}, Tingting Yang, ``\href{https://dblp.org/rec/conf/vtc/HeWFNY24}{A Low-Rank Approach of MIMO Optimization for Edge Smart Ports}'', \emph{In 2024 IEEE 99th Vehicular Technology Conference (VTC2024-Spring)}, Singapore, 2024, pp. 1--5.\\
+
+Xinghan Wang, Cheng Huang, \textbf{Jiahong Ning}, Tingting Yang, Xuemin (Sherman) Shen, “\href{https://dblp.org/rec/conf/globecom/WangHNYS23}{Adaptive Distributed Learning with Byzantine Robustness: A Gradient-Projection-Based Method}”, \emph{In 2023 IEEE Global Communications Conference (GLOBECOM)}, Kuala Lumpur, Malaysia, 2023, pp. 7520--7525.\\
+
+Xinghan Wang, Xiaoxiong Zhong, \textbf{Jiahong Ning}, Tingting Yang, Yuanyuan Yang, Guoming Tang, Fangming Liu, “\href{https://dblp.org/rec/conf/icdcs/WangZNYYTL23}{Two-Stage Coded Distributed Learning: A Dynamic Partial Gradient Coding Perspective}”, \emph{In 2023 IEEE International Conference on Distributed Computing Systems (ICDCS)}, Hong Kong, China, 2023, pp. 942--952.\\
+
+Ping Feng, \textbf{Jiahong Ning}, Tingting Yang, Jiabao Kang, Jiale Wang, Yicheng Li, “\href{https://doi.org/10.1109/GLOBECOM54140.2023.10437303}{Federated Optimal Framework with Low-bitwidth Quantization for Distribution System}”, \emph{In 2023 IEEE Global Communications Conference (GLOBECOM)}, Kuala Lumpur, Malaysia, 2023, pp. 2039--2044.\\
+
+\textbf{Jiahong Ning}, Jiale Wang, Ping Feng, Tingting Yang, “\href{https://ieeexplore.ieee.org/abstract/document/10294049}{
+A Distributed Framework for the Ocean IoT Network}". \emph{IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC) 2023}, 1-6\\
+
+Chengzhuo Han, Tingting Yang, Xin Sun, \textbf{Jiahong Ning}, ``\href{https://doi.org/10.1109/ICC45041.2023.10279179}{CLMD: Detection and Prevention of Poisoning Attacks for Federated Learning in Maritime Communication Network}'', \emph{In 2023 IEEE International Conference on Communications (ICC)}, Rome, Italy, 2023, pp. 19--25.\\
+
+Xia Du, \textbf{Jiahong Ning}, Jianwu Zeng, “\href{https://doi.org/10.1109/APEC39645.2020.9124276}{Modeling and Control of a Four-Port Bidirectional DC-DC Converter for a DC Microgrid with Renewable Energy Sources}”, \emph{In 2020 IEEE Applied Power Electronics Conference and Exposition (APEC)}, New Orleans, USA, Mar. 2020.\\
+
+\textbf{Jiahong Ning}, Jianwu Zeng, Xia Du, “\href{https://doi.org/10.1109/ECCE.2019.8912185}{A Four-port Bidirectional DC-DC Converter for Renewable Energy-Battery-DC Microgrid System}”, \emph{In 2019 IEEE Energy Conversion Congress and Exposition (ECCE)}, Baltimore, USA, Oct. 2019.\\
+
+Jianwu Zeng, \textbf{Jiahong Ning}, Taesic Kim, Vincent Winstead, “\href{https://doi.org/10.1109/APEC.2019.8722323}{Modeling and Control of a Four-port DC-DC Converter for a Hybrid Energy System}”, \emph{In 2019 IEEE Applied Power Electronics Conference and Exposition (APEC)}, Los Angeles, USA, Mar. 2019.\\
+
+% Dianzhi Yu, Jianwu Zeng, Junhui Zhao, \textbf{Jiahong Ning}, “\href{https://apec-conf.org/wp-content/uploads/2024/05/APEC2019programFinal.pdf}{A Two-stage Four-port Inverter for Hybrid Renewable Energy System Integration}”, \emph{In 2019 IEEE Applied Power Electronics Conference and Exposition (APEC)}, Los Angeles, USA, Mar. 2019, (Poster).\\
+\vspace{3mm}
+%-------------------- 行业成果 --------------------
+\section{行业专利}
+
+郑策，王星翰，\textbf{宁嘉鸿}，杨勇，黄宁，杨婷婷，
+``基于投机采样的大模型分布式推理方法（DSSD）''，\emph{中国发明专利}
+（公开号：CN120373477A；申请号：CN202510885627.8；鹏城实验室。\\
+ 
+ 俸萍，杨婷婷，毛忠阳，\textbf{宁嘉鸿}，黄建波，``基于 WasmEdge 的移动端大模型自适应软件''，
+\emph{中国发明专利}，状态：交底完成，\textbf{拟申请}（暂未分配申请号）。\\
+
+\textbf{宁嘉鸿}，杨婷婷，王星翰，``\href{https://www.patentguru.com/cn/CN116484980A}{一种分布式联邦学习的两阶段编码方法及相关装置}''，\emph{中国发明专利}，专利号：202310273893.6。\\
+
+\textbf{宁嘉鸿}，杨婷婷，王星翰，``抗拜占庭攻击的分布式学习方法、电子设备及存储介质''，\emph{中国发明专利}，专利号：202311403763.6。\\
+
+\textbf{宁嘉鸿}，荷泽晨，杨婷婷，``一种基于低秩适应的边缘近海信道状态的传输方法及系统''，
+\emph{中国发明专利}，专利号：202411916653.4。\\
+
+孙鑫，杨婷婷，\textbf{宁嘉鸿}，等``基于多智能体协作的海上通信网络路由方法及网络系统''，\emph{中国发明专利}，专利号：202411916319.9。\\
+
+祝朋艳，杨婷婷，\textbf{宁嘉鸿}，``一种云-边协同的推理方法及推理系统''，\emph{中国发明专利}，专利号：202411916320.1。\\
+
+% Tingting Yang, \textbf{Jiahong Ning}, Zechen He, Jiale Wang, ``Top 10 Technological Advances in the Field of Communication in 2023 Nomination: Collaborative optimization of network architecture, protocols and experimental platform through communication and computing'', \emph{Pengcheng Laboratory}, 2024, Shenzhen。\\
+
+杨婷婷、\textbf{宁嘉鸿}、何泽晨、王佳乐，\textbf{“2023 年通信领域十大技术进展：通信与计算实现网络架构、协议和实验平台的协同优化”}，\emph{中国通信协会2023年文}，鹏程实验室，2024年，深圳。
+\vspace{3mm}
+%-------------------- 行业白皮书 --------------------
+\section{行业白皮书}
+
+全球6G技术大会/多机构，``\href{https://www.sgpjbg.com/baogao/159946.html}{2024年10.0A GPT与通信白皮书}'', \emph{White Paper}, 2024。 （撰写“通信，算力协同”与“实验平台”相关章节，整合鹏城实验室案例与原型数据。）\\
+
+6GANA（6G Alliance of Network AI）, ``\href{https://www.6g-ana.com/upload/file/20230313/6381433864422340009478203.pdf}{6G Network Native AI Technical Requirement White Paper}'', \emph{White Paper}, 2022。（主笔“Native AI 能力需求与指标体系”，“端-边-云协同实验平台”章节；梳理鹏城实验在网络AI方面的实践。）\\
+
+6GANA（6G Alliance of Network AI）, ``\href{https://www.6g-ana.com/upload/file/20230313/6381433864369996165807627.pdf}{6G Network AI Concept and Terminology（v0.3）}'', \emph{White Paper}, 2021。 （术语体系与分类框架整理；补充鹏城实验室实践积累相关AI术语与参考案例。）\\
+
+6GANA（6G Alliance of Network AI）, ``\href{https://www.6g-ana.com/upload/file/20230313/6381433864517755268320123.pdf}{Ten Questions of 6G Native AI Network Architecture}'', \emph{White Paper}, 2021。 （参与架构十问的场景与接口设计讨论；撰写“算网一体化与网络原生 AI”部分。）\\
+
+6GANA（6G Alliance of Network AI）, ``\href{https://www.6g-ana.com/upload/file/20230313/6381433867377232541385028.pdf}{6G Data Service — Concept and Requirements}'', \emph{White Paper}, 2023。 （主笔数据服务能力模型、数据闭环与评测流程；补充鹏城实验室数据治理与流水线实践。）\\
+
+6GANA（6G Alliance of Network AI）, ``\href{https://www.6g-ana.com/upload/file/20230313/6381433864517755268320123.pdf}{Knowledge-Defined Orchestration and Management}'', \emph{White Paper}, 2023。 （撰写意图驱动编排（KDO/M）与资源编排案例；引入鹏城实验室 KubeEdge/Kube-Wireless 场景。）\\
+
+6GANA（6G Alliance of Network AI）, ``\href{https://www.6g-ana.com/upload/file/20240129/6384212141255667878785630.pdf}{Whitepaper on Distributed Learning of 6G}'', \emph{White Paper}, 2024。（分布式/联邦学习在 6G 的体系与关键技术；融入鹏城实验室端-边-云协同训练平台结果与图表。）\\
+
+%-------------------- 学术报告 --------------------
+% \section{学术报告}
+% \datedsubsection{INFOCOM 2025, 伦敦}{2025.05}
+% EdgePrompt: 分布式 KV 推理框架演讲\\
+% \datedsubsection{ICDCS 2023, 香港}{2023.07}
+% Two-Stage Coded Distributed Edge Learning 演讲
+
+%-------------------- 技能 --------------------
+\section{技能}
+\begin{itemize}[parsep=0.5ex]
+    \item 模型与系统：LLM Serving（vLLM / TGI / TensorRT-LLM），KV-Cache 管理，Speculative Decoding，Prompt/Cache Routing，Streaming Inference。
+    \item 平台与工程：Kubernetes，\textbf{KubeEdge}，Docker，CI/CD，Linux，Grafana
+    \item 算法与优化：分布式与联邦学习（Byzantine-robust），RL for Offloading，凸优化/Gurobi，PyTorch。
+    \item 语言与协作：Python，Golang，Shell；跨团队协作与项目管理（国重申报、开源社区推进、交付）。
+    
+  % \item 分布式系统与AI：Speculative Decoding, MEC/6G, convex optimization
+  % \item LLM工具：FasterTransformer，vLLM, HuggingFace TGI, Ollama, bitsandbytes
+  % \item 编程语言：Python, Golang, Java, Shell, LaTeX
+  % \item DevOps：Docker, Kubernetes, CI/CD, Linux
+  % \item 数学工具：PyTorch, MATLAB/Simulink, Gurobi
+\end{itemize}
+
+%-------------------- 语言 --------------------
+\section{语言}
+普通话 (母语)；英语 (流利, TOEFL 96)；日语 (初级)；粤语 (流利)
+
+% \section{自荐及总结}
+% 熟悉技术与市场，擅长资源整合与团队管理；博士期间协助导师申请国家重点研发计划。
+
+\end{document}

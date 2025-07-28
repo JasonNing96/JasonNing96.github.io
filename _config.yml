@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Jiahong Ning"
 title_separator          : "-"
 name                     : &name "Jiahong Ning"
-description              : &description "Edge Computing & Generative AI Researcher"
+description              : &description "MEC Edge Computing & LLM Inference Acceleration Researcher"
 url                      : https://JasonNing96.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JasonNing96/JasonNing96.github.io"
@@ -22,14 +22,14 @@ repository               : "JasonNing96/JasonNing96.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Jiahong Ning"
   pronouns         : # example: "she/her"  
-  bio              : "Edge Computing & Generative AI · Distributed Learning · IoT Systems"
+  bio              : "MEC Edge Computing & LLM Inference Acceleration | KV-Cache Optimization & Speculative Decoding"
   location         : "Singapore & Shenzhen"
-  employer         : "A*STAR Institute for Infocomm Research"
+  employer         : "A*STAR Institute for Infocomm Research (I2R)"
   uri              : # URL
-  email            : "jiahong.ning@mnsu.edu" 
+  email            : "njh1195@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "JasonNing96"
+  github           : "https://github.com/JasonNing96"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

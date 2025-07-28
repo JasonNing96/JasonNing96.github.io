@@ -11,83 +11,111 @@ redirect_from:
 
 Education
 ======
-* **Joint-Ph.D in Computer Science and Communication Technology**
-  * Institute for Infocomm Research Institute, A*STAR, Singapore (May 2024 - Present)
-  * Research on large pre-trained models and cache acceleration inference mechanisms
-  * Study distributed collaborative mechanisms
-  * Collaborate deeply with Professor Ducy from NTU (Nanyang Technological University)
+* **Joint-Ph.D in Computer Science and Communication Technology** (May 2024 - Present)
+  * A*STAR Institute for Infocomm Research (I2R), Singapore
+  * Supervisor: Prof. Sumei Sun (Fellow of The Academy of Engineering, Singapore)
 
-* **Ph.D in Traffic Control and Transport Engineering**
-  * Dalian Maritime University, Dalian, China (Sep. 2021 - June 2025)
-  * Focus: Deep learning, Optimization mathematics
+* **Ph.D in Traffic Control and Transport Engineering** (Sep 2021 - Present)
+  * Dalian Maritime University, China
+  * Supervisor: Prof. Tingting Yang (Pengcheng Laboratory)
+
+* **M.S. in Electrical and Electronic Information Technology** (Sep 2018 - Jan 2021)
+  * Minnesota State University, USA
+  * Supervisors: Prof. JianWu Zeng, Prof. Vincent Winstead
+
+* **B.S. in Electrical Engineering and Automation** (Sep 2014 - Jun 2018)
+  * Guangxi University, China
 
 Research Experience
 ======
-* **May 2024 - July 2025: Joint-Ph.D Program Supervisor: Sun Shumei**
-  * A*STAR, Institute for Infocomm Research (I2R), Singapore
-  * **Hybrid Wireless Computing Task Offloading for Marine Spatial Applications**: Designed multi-agent strategies and reinforcement learning models; paper completed and submitted to IEEE Transactions on Green Communications and Networking (TGCN).
-  * **Edge Wireless Computing Caching Algorithms for Large-Scale Models**: Developed edge-cloud collaborative caching strategies to enhance cache utilization and model inference throughput; results published in IEEE INFOCOM.
-  * **Distributed Speculative Sampling Method (DSSD) for Wireless Networks**: Leveraged token-exchange characteristics of speculative sampling to boost throughput efficiency of LLMs on wireless and overall edge device performance; paper accepted at ICML 2025.
-  * **UAV-Assisted Communication Strategies Using Distributed Speculative Sampling**: Employed reinforcement learning together with the DSSD algorithm to improve LLM service quality for edge users in emergency scenarios; related research submitted to IEEE Transactions on Cognitive Communications and Networking (TCCN).
 
-* **March 2023 - Present: 6G AI General large model intelligence**
-  * Joint-Ph.D in Practical Computer Latory, Supervisor: Tingting Yang, Shenzhen, China
-  * **Project Involvement in "6G General AI for Inclusive Intelligence"**: Actively participated in the proposal for this project, focusing on the development of a "6G Network Big Model" based on large-scale models and wireless datasets. This work involved research on operational and network-native interoperability.
-  * **IMTM2030 Report and Project Research**: Contributed to the writing and research of the IMTM2030 report, providing insights into future technological trends and for innovation use.
-  * **Proposal Writing for "6G Big Model Network Architecture and Efficient Edge Deployment"**: Played a key role in drafting the proposal for this significant project, which aims to explore innovative architectures for 6G networks and efficient deployment strategies at the edge.
-  * **Research on Hierarchical Federated Architecture Based on Large Pre-trained Models**: Engaged in the study of a dedicated architecture, focusing on the efficient deployment of large-scale pre-trained models at the edge.
-  * **Development of an End-Edge-Cloud Distributed Collaborative Hardware Architecture**: Designed and implemented a distributed collaborative hardware architecture spanning end devices, edge nodes, and cloud systems. This architecture supports the lab's algorithm validation processes, especially for large-scale pre-trained models.
+* **May 2024 - Present: Joint-Ph.D Research Supervisor: Prof. Sumei Sun**
+  * A*STAR Institute for Infocomm Research (I2R), Singapore
+  * **LLM Edge Distributed Inference Algorithm (EdgePrompt)**: Designed distributed KV-Cache inference framework for wireless networks; implemented KV routing and consistency management, sharding and streaming strategies, reducing end-to-end latency and improving throughput in bandwidth-constrained scenarios.
+  * **Distributed Split Speculative Decoding (DSSD)**: Combined speculative decoding with edge-cloud collaboration, innovatively designed network uplink/downlink logic, achieving at least 2X model acceleration. Funded by Huawei to attend 42nd ICML Machine Learning Conference.
+  * **Hybrid Hierarchical Offloading Algorithm Design**: Targeting decoder-based generative models, constructed UE→Edge→Cloud layered offloading with memory/bandwidth constraints scheduling; used reinforcement learning for task granularity and routing, balancing QoS, energy consumption and cost.
+  * **UAV-Assisted LLM Edge Inference**: In emergency/communication-limited weak coverage scenarios, combined UAV relay with DSSD strategies for link adaptation and task partitioning, improving edge user service quality and flexibility.
 
-* **Aug 2021 - Present: The Networking for Artificial Intelligence for 6th Communication-Networking**
-  * Research Assistant in Network 2025, Supervisor: Lu JunMing, Shenzhen, China
-  * Investigating the latest developments in communication theory and 3GPP standards, reading literature and conducting field research, and exploring the use of machine learning in wireless communication.
-  * Participating in the research of NetworAI, and optimized resource scheduling by deep learning in communication.
-  * Participated in KubeEdge open source project of Huawei, and the initiator of Kubeedge-Wireless, a special research group.
-  * Learning and research distributed networks for 6G management tools, so as to research about the functions of container and 5G networks.
-  * Proposed and research distribution federated learning solution for differential privacy protection problems in distributed wireless networks.
-  * Developed communication-related algorithms and verification based on Linux system, and contributed to Kubeedge community.
-  * Intelligence edge algorithm was designed based on PyTorch framework.
-  * Responsible for communicating with professors and communicating with the Huawei cloud team.
+* **March 2023 - July 2024: National Key R&D Program "6G General AI Intelligence"**
+  * Pengcheng Laboratory, Supervisor: Prof. Tingting Yang, Shenzhen, China
+  * **National Key R&D Program Core Research**: Researched large model architecture deployment and protocol design in communication network problems. Focused on integrated communication-computation interfaces and network large model capabilities and deployment.
+  * **IMTM2030 Report Co-authoring**: Collaborated with Huawei and other enterprises to write sections of the IMTM2030 Report, providing insights into future technology trends.
+  * **Reliable Distributed Learning**: Two-Stage Coded Distributed Learning (Two-Stage Coded DL) and Byzantine-robust federated learning, targeting edge training/resource heterogeneity and failure tolerance.
+  * **Edge-Cloud Collaborative Hardware Architecture Design**: Built communication and computation integrated platform based on KubeEdge/Kube-Wireless, implementing edge-cloud collaborative orchestration; designed bandwidth/memory/energy-aware scheduling strategies supporting inference concurrency, KV migration and consistency control. Recognized as "Top 10 Communication Advances of 2023".
 
-Working Experience
+* **March 2022 - February 2023: Huawei 2012 Wireless Technology Lab (Collaborating Supervisor: Lu Jianming, Huawei Fellow)**
+  * **Communication Theory and 3GPP Standards**: Tracked communication theory and 3GPP standard development, researched application paths of machine learning/deep learning in wireless networks.
+  * **National Key R&D Program Network4AI**: Participated in Network4AI project, focusing on communication resource scheduling and intelligent orchestration algorithm design and verification.
+  * **Huawei KubeEdge Open Source Community**: Co-founded Huawei KubeEdge open source community, initiated and promoted Kube-Wireless Group for wireless scenario container networks.
+  * **Container Edge Network and Management Tools**: Researched containerized edge networks and management tools, explored resource orchestration and observability systems integrating with 5G networks.
+
+Work Experience
 ======
-* **June 2021 - Sep 2021: CloudBu Innovation Lab**
-  * Huawei cloud computing technology Co Ltd, Shenzhen, China
-  * Responsible for kubernetes operation and maintenance, including lab's log viewing and maintenance.
-  * Responsible of Edge-Mesh plugin development about Edge crossing tool for K8S by Golang.
-  * Manage the kubeedge community, collect issues from users and submit new feature requests.
-  * Lead the establishment of the wireless working group for novel scenarios about wireless.
-  * Research on dynamic topology of wireless.
-  * Coding the edge side collaboration demo, participate in the development and presentation of 3GPP standards on edge side collaboration.
 
-* **Jul 2020 - May 2021: 2012 Wireless Tech Lab**
-  * Huawei Technologies Co Ltd, Shenzhen, China
-  * Invested the latest development of communication theory and 3GPP standard, and explore the combination point of communication and Machine learning.
-  * Participated in the research of Network4AI, and optimized resource scheduling by deep learning in communication.
-  * Participated in KubeEdge open source project of Huawei, and the initiator of Kubeedge-Wireless, a special research group.
-  * Learning and research containerized networks for 6G management tools, so as to research about the functions of container and 5G networks.
-  * Proposed and research distribution federated learning solution for differential privacy protection problems in distributed wireless networks.
-  * Developed communication-related algorithms and verification based on Linux system, and contributed to Kubeedge community.
-  * Intelligence road planning algorithm was designed based on PyTorch framework.
-  * Responsible for communicating with professors and communicating with the Huawei cloud team.
+* **June 2021 - September 2021: CloudBu Innovation Lab**
+  * Huawei Cloud Computing Technology Co Ltd, Shenzhen, China
+  * Responsible for Kubernetes operations and maintenance and log system maintenance, implemented Edge-Mesh plugin using Golang.
+  * Managed KubeEdge community: collected user requirements and submitted feature suggestions.
+  * Led wireless working group to explore new scenarios, researched wireless network dynamic topology.
 
-* **Jan 2019 - May 2019: Professor Assistant**
-  * Minnesota State University, Mankato, USA
-  * Responsible for purchasing and managing equipment of laboratory
-  * Served as teaching assistance of Smart Grid (EE583) Course
-  
+* **July 2020 - May 2021: Wireless Tech Lab**
+  * Huawei 2012 Wireless Technology Lab, Shenzhen, China
+  * Participated in 3GPP standards and AI optimization related work, Network4AI container network projects.
+  * Developed SLAM algorithm prototypes, promoted intelligent perception and positioning research.
+  * Coordinated project progress and requirements, wrote technical documents and conducted cross-team communication.
+
 Skills
 ======
-* **Programming Languages**: Python, Go, C++, MATLAB
-* **Machine Learning & AI**: PyTorch, TensorFlow, Distributed Learning, Federated Learning
-* **Edge Computing**: Kubernetes, KubeEdge, Edge-Cloud Collaboration
-* **Wireless Communications**: 5G/6G Networks, Network4AI, 3GPP Standards
-* **Research Areas**: 
-  * Speculative Decoding for Large Language Models
-  * Edge Computing and IoT Systems
-  * Distributed Systems and Collaborative Intelligence
-  * Optimization and Resource Allocation
+* **Model & Systems**: LLM Serving (vLLM/TGI/TensorRT-LLM), KV-Cache Management, Speculative Decoding, Prompt/Cache Routing, Streaming Inference
+* **Platforms & Engineering**: Kubernetes, KubeEdge, Docker, CI/CD, Linux, Grafana
+* **Algorithms & Optimization**: Distributed & Federated Learning (Byzantine-robust), RL for Offloading, Convex Optimization/Gurobi, PyTorch
+* **Languages & Collaboration**: Python, Golang, Shell; Cross-team collaboration and project management (National Key R&D applications, open source community promotion, delivery)
 
+Languages
+======
+* **Chinese** (Native)
+* **English** (Fluent, TOEFL 96)
+* **Japanese** (Beginner)
+* **Cantonese** (Fluent)
+
+Selected Publications
+======
+## Journal Papers
+
+**Jiahong Ning**, Aiming Li, Ning Huang, Tingting Yang, Gary Lee, Sumei Sun, "MARHLO: Multi-Agent RL-Based Hybrid Offloading for Maritime MEC Network", *IEEE Transactions on Network Science and Engineering (TNSE)*, Under Review, 2025.
+
+**Jiahong Ning**, Tingting Yang, Yongyi Su, "SkyDSSD: A UAV-Assisted Distributed Split Speculative Decoding Framework for Edge Inference", *IEEE Transactions on Cognitive Communications and Networking (TCCN)*, Under Review, 2025.
+
+**Jiahong Ning**, Ce Zheng, Tingting Yang, "DeAOff: Dependence-Aware Offloading of Decoder-Based Generative Models for Edge Computing", *IEEE China Communications (ChinaCom)*, 2025, Accept.
+
+Tingting Yang, Ping Feng, Qixin Guo, Jindi Zhang, Xiufeng Zhang, **Jiahong Ning**, Xinghan Wang, Zhongyang Mao, "AutoHMA-LLM: Efficient Task Coordination and Execution in Heterogeneous Multi-Agent Systems Using Hybrid Large Language Models", *IEEE Transactions on Cognitive Communications and Networking* **11**(2): 987--998, 2025.
+
+## Conference Papers
+
+**Jiahong Ning**, Ce Zheng, Tingting Yang, "DSSD: Efficient Edge-Device Deployment and Collaborative Inference via Distributed Split Speculative Decoding", *In The 42nd International Conference on Machine Learning (ICML)*, 2025, Accept.
+
+**Jiahong Ning**, Pengyan Zhu, Ce Zheng, Gary Lee, Sumei Sun, Tingting Yang, "EdgePrompt: A Distributed Key-Value Inference Framework for LLMs in 6G Networks", *In 2025 IEEE International Conference on Computer Communications (INFOCOM)*, London, UK, 2025, Accept.
+
+Patents and Industry Contributions
+======
+* **5 Chinese Patents** filed/granted in distributed learning, speculative decoding, and edge computing optimization
+* **Multiple Industry White Papers** for 6GANA (6G Alliance of Network AI) on native AI technical requirements, network architecture, and distributed learning
+* **Contributing Author** to "2024 10.0A GPT and Communication White Paper" and IMTM2030 Report
+
+Honors and Awards
+======
+* **"Top 10 Technological Advances in Communication 2023"** - China Institute of Communications, for collaborative optimization of network architecture, protocols and experimental platform through communication and computing
+* **ICML 2025 Travel Grant** - Huawei sponsored attendance at 42nd International Conference on Machine Learning
+* **National Key R&D Program Participation** - Core contributor to "6G General AI Intelligence" project
+
+Service and Leadership
+======
+* **Co-founder** of Huawei KubeEdge open source community and Kube-Wireless working group
+* **Project Leadership** experience in National Key R&D Program applications and management
+* **Cross-team Collaboration** coordinator between academia and industry (A*STAR, Pengcheng Lab, Huawei)
+* **Technical Community Contributions** to KubeEdge, Kubernetes, and wireless edge computing ecosystems
+
+{% comment %}
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -105,10 +133,4 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and Leadership
-======
-* Initiator of Kubeedge-Wireless working group
-* Active contributor to KubeEdge open source community
-* Reviewer for IEEE conferences and journals
-* Research collaboration coordinator between academia and industry
+{% endcomment %}

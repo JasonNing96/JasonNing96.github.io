@@ -1,152 +1,193 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Jiahong Ning",
+    "email": "njh1195@gmail.com",
+    "phone": "(+86) 13768410701",
+    "website": "https://JasonNing96.github.io",
+    "summary": "MEC Edge Computing & LLM Inference Acceleration Researcher at A*STAR Institute for Infocomm Research",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Singapore & Shenzhen",
+      "countryCode": "SG",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": ""
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": ""
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "JasonNing96",
+        "url": "https://github.com/JasonNing96"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "A*STAR Institute for Infocomm Research (I2R)",
+      "position": "Joint-Ph.D Research Student",
+      "website": "",
+      "startDate": "2024-05-01",
+      "endDate": "",
+      "summary": "Research on LLM edge distributed inference algorithms, distributed split speculative decoding, and hybrid hierarchical offloading under supervision of Prof. Sumei Sun",
+      "highlights": [
+        "EdgePrompt: Distributed KV-Cache inference framework (INFOCOM 2025)",
+        "DSSD: Distributed Split Speculative Decoding (ICML 2025)",
+        "UAV-assisted LLM edge inference for emergency scenarios"
+      ]
+    },
+    {
+      "company": "Pengcheng Laboratory",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2023-03-01",
+      "endDate": "2024-07-01",
+      "summary": "National Key R&D Program research on 6G General AI Intelligence and edge-cloud collaborative architectures",
+      "highlights": [
+        "Led National Key R&D Program proposal writing and implementation",
+        "Co-authored IMTM2030 Report with Huawei and other enterprises",
+        "Recognized as 'Top 10 Communication Advances of 2023'"
+      ]
+    },
+    {
+      "company": "Huawei 2012 Wireless Technology Lab",
+      "position": "Research Intern",
+      "website": "",
+      "startDate": "2022-03-01",
+      "endDate": "2023-02-01",
+      "summary": "Research on 3GPP standards, Network4AI projects, and co-founded KubeEdge open source community",
+      "highlights": [
+        "Co-founded Huawei KubeEdge open source community",
+        "Initiated Kube-Wireless working group",
+        "Contributed to Network4AI resource scheduling optimization"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "A*STAR Institute for Infocomm Research (I2R), Singapore",
+      "area": "Joint-Ph.D in Computer Science and Communication Technology",
+      "studyType": "Ph.D",
+      "startDate": "2024-05-01",
+      "endDate": "",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "Dalian Maritime University, China",
+      "area": "Ph.D in Traffic Control and Transport Engineering",
+      "studyType": "Ph.D",
+      "startDate": "2021-09-01",
+      "endDate": "",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Minnesota State University, USA",
+      "area": "M.S. in Electrical and Electronic Information Technology",
+      "studyType": "Master",
+      "startDate": "2018-09-01",
+      "endDate": "2021-01-01",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Guangxi University, China",
+      "area": "B.S. in Electrical Engineering and Automation",
+      "studyType": "Bachelor",
+      "startDate": "2014-09-01",
+      "endDate": "2018-06-01",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Model & Systems",
+      "level": "Expert",
+      "keywords": ["LLM Serving", "vLLM", "TGI", "TensorRT-LLM", "KV-Cache Management", "Speculative Decoding", "Streaming Inference"]
+    },
+    {
+      "name": "Platforms & Engineering",
+      "level": "Advanced",
+      "keywords": ["Kubernetes", "KubeEdge", "Docker", "CI/CD", "Linux", "Grafana"]
+    },
+    {
+      "name": "Algorithms & Optimization",
+      "level": "Advanced", 
+      "keywords": ["Distributed Learning", "Federated Learning", "Byzantine-robust", "RL for Offloading", "Convex Optimization", "PyTorch"]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "keywords": ["Python", "Golang", "Shell"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English", 
+      "fluency": "Fluent (TOEFL 96)"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner"
+    },
+    {
+      "language": "Cantonese",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "MEC Edge Computing & LLM Inference Acceleration"
+    },
+    {
+      "name": "KV-Cache Memory Consistency Management"
+    },
+    {
+      "name": "Speculative Decoding & Distributed Systems"
+    },
+    {
+      "name": "6G Communication Networks & AI Resource Optimization"
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "DSSD: Efficient Edge-Device Deployment and Collaborative Inference via Distributed Split Speculative Decoding",
+      "publisher": "The 42nd International Conference on Machine Learning (ICML)",
+      "releaseDate": "2025-07-01",
+      "website": "",
+      "summary": "A distributed speculative decoding framework for efficient LLM deployment on edge devices."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "EdgePrompt: A Distributed Key-Value Inference Framework for LLMs in 6G Networks",
+      "publisher": "IEEE International Conference on Computer Communications (INFOCOM)",
+      "releaseDate": "2025-05-20", 
+      "website": "",
+      "summary": "A distributed key-value inference framework designed for large language models in 6G networks."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "DeAOff: Dependence-Aware Offloading of Decoder-Based Generative Models for Edge Computing",
+      "publisher": "IEEE China Communications (ChinaCom)",
+      "releaseDate": "2025-05-01",
+      "website": "",
+      "summary": "Dependence-aware offloading algorithm for decoder-based generative models in edge computing environments."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
