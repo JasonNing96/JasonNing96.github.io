@@ -32,6 +32,20 @@
   },
   "work": [
     {
+      "company": "Huawei Cloud",
+      "position": "Senior Engineer",
+      "website": "",
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "summary": "Leading Huawei Cloud LLM inference acceleration framework development, focusing on distributed inference optimization and cloud-edge-device collaborative inference architecture",
+      "highlights": [
+        "Cloud-native AI large model inference systems",
+        "Distributed inference optimization",
+        "Huawei Cloud AI platform development",
+        "Ascend AI processor optimization"
+      ]
+    },
+    {
       "company": "A*STAR Institute for Infocomm Research (I2R)",
       "position": "Joint-Ph.D Research Student",
       "website": "",
@@ -113,22 +127,37 @@
     {
       "name": "Model & Systems",
       "level": "Expert",
-      "keywords": ["LLM Serving", "vLLM", "TGI", "TensorRT-LLM", "KV-Cache Management", "Speculative Decoding", "Streaming Inference"]
+      "keywords": ["LLM Serving", "vLLM", "TGI", "TensorRT-LLM", "Huawei Cloud AI Platform", "Ascend AI", "KV-Cache Management", "Speculative Decoding", "Streaming Inference"]
     },
     {
       "name": "Platforms & Engineering",
       "level": "Advanced",
-      "keywords": ["Kubernetes", "KubeEdge", "Docker", "CI/CD", "Linux", "Grafana"]
+      "keywords": ["Kubernetes", "KubeEdge", "Docker", "CI/CD", "Linux", "Grafana", "Cloud-Native AI"]
     },
     {
       "name": "Algorithms & Optimization",
       "level": "Advanced", 
-      "keywords": ["Distributed Learning", "Federated Learning", "Byzantine-robust", "RL for Offloading", "Convex Optimization", "PyTorch"]
+      "keywords": ["Distributed Learning", "Federated Learning", "Byzantine-robust", "RL for Offloading", "Convex Optimization", "PyTorch", "Cloud-Edge-Device Collaboration"]
     },
     {
       "name": "Programming Languages",
       "level": "Advanced",
       "keywords": ["Python", "Golang", "Shell"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Huawei Cloud Technology Innovation Award",
+      "date": "2024-12-01",
+      "summary": "Recognized for outstanding contributions to cloud-native AI large model inference systems"
+    },
+    {
+      "title": "Pengcheng Laboratory Outstanding Intern",
+      "summary": "Awarded for excellence in National Key R\u0026D Program research and leadership"
+    },
+    {
+      "title": "Lead Author of IMTM2030 Report",
+      "summary": "Primary contributor to the IMTM2030 technology roadmap report"
     }
   ],
   "languages": [

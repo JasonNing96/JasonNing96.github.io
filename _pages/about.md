@@ -9,7 +9,7 @@ redirect_from:
 
 *"Imagination is more important than knowledge, knowledge is limited, imagination encircles the world."*
 
-Welcome to my academic homepage! I am Jiahong Ning (宁嘉鸿), currently pursuing a Joint-Ph.D program at A*STAR Institute for Infocomm Research (I2R), Singapore, working under the supervision of Prof. Sumei Sun (Fellow of The Academy of Engineering, Singapore). I am also a Ph.D candidate in Traffic Control and Transport Engineering at Dalian Maritime University, China, supervised by Prof. Tingting Yang.
+Welcome to my academic homepage! I am Jiahong Ning (宁嘉鸿), currently a **Senior Engineer at Huawei Cloud** leading LLM inference acceleration framework development, and pursuing a Joint-Ph.D program at A*STAR Institute for Infocomm Research (I2R), Singapore, working under the supervision of Prof. Sumei Sun (Fellow of The Academy of Engineering, Singapore). I am also a Ph.D candidate in Traffic Control and Transport Engineering at Dalian Maritime University, China, supervised by Prof. Tingting Yang.
 
 ## Research Interest
 
@@ -42,11 +42,18 @@ I bridge the gap between **market demands and academic research**, with proven e
 ## Recent News
 
 * **2025**: **3 papers accepted** at top-tier venues: **ICML 2025**, **IEEE INFOCOM 2025**, and **IEEE ChinaCom 2025**
-* **May 2024**: Started Joint-Ph.D program at A*STAR Institute for Infocomm Research, Singapore
+* **December 2024**: **Huawei Cloud Technology Innovation Award** for cloud-native AI large model inference systems
+* **August 2024**: Joined **Huawei Cloud as Senior Engineer** leading LLM inference acceleration
 * **2024**: Contributing to **National Key R&D Program "6G General AI Intelligence"** research
 * **2023**: Our work on communication and computing collaborative optimization was recognized as **"Top 10 Technological Advances in Communication 2023"**
 
 ## Research Highlights
+
+### Current Research at Huawei Cloud (2024-Present)
+
+- **Cloud-Native AI Large Model Inference Systems**: Leading Huawei Cloud LLM inference acceleration framework development with distributed inference optimization and cloud-edge-device collaborative architecture
+- **Ascend AI Processor Optimization**: Designing optimization strategies for Huawei's Ascend AI processors in large model inference scenarios
+- **Huawei Cloud AI Platform**: Contributing to enterprise-scale cloud-native AI platform development
 
 ### Current Research at A*STAR I2R (2024-Present)
 
@@ -63,9 +70,9 @@ I bridge the gap between **market demands and academic research**, with proven e
 
 ## Technical Expertise
 
-- **Model & Systems**: LLM Serving (vLLM/TGI/TensorRT-LLM), KV-Cache Management, Speculative Decoding, Streaming Inference
-- **Platforms & Engineering**: Kubernetes, KubeEdge, Docker, CI/CD, Linux, Grafana  
-- **Algorithms & Optimization**: Distributed & Federated Learning (Byzantine-robust), RL for Offloading, Convex Optimization, PyTorch
+- **Model & Systems**: LLM Serving (vLLM/TGI/TensorRT-LLM/Huawei Cloud AI Platform), KV-Cache Management, Speculative Decoding, Streaming Inference, Ascend AI Processor Optimization
+- **Platforms & Engineering**: Kubernetes, KubeEdge, Docker, CI/CD, Linux, Grafana, Cloud-Native AI
+- **Algorithms & Optimization**: Distributed & Federated Learning (Byzantine-robust), RL for Offloading, Convex Optimization, PyTorch, Cloud-Edge-Device Collaboration
 - **Languages & Collaboration**: Python, Golang, Shell; Cross-team collaboration and project management
 
 For more details about my publications, please check my [CV](/cv/) and [Publications](/publications/) pages.

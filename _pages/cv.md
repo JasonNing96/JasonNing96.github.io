@@ -29,7 +29,13 @@ Education
 Research Experience
 ======
 
-* **May 2024 - Present: Joint-Ph.D Research Supervisor: Prof. Sumei Sun**
+* **August 2024 - Present: Senior Engineer, Huawei Cloud**
+  * Huawei Cloud, China
+  * **Cloud-Native AI Large Model Inference Systems**: Leading Huawei Cloud LLM inference acceleration framework development, focusing on distributed inference optimization and cloud-edge-device collaborative inference architecture.
+  * **Ascend AI Processor Optimization**: Designing and implementing optimization strategies for Huawei's Ascend AI processors in large model inference scenarios.
+  * **Huawei Cloud AI Platform Development**: Contributing to the development of Huawei's cloud-native AI platform for enterprise-scale large model deployments.
+
+* **May 2024 - Present: Joint-Ph.D Research Student, Supervisor: Prof. Sumei Sun**
   * A*STAR Institute for Infocomm Research (I2R), Singapore
   * **LLM Edge Distributed Inference Algorithm (EdgePrompt)**: Designed distributed KV-Cache inference framework for wireless networks; implemented KV routing and consistency management, sharding and streaming strategies, reducing end-to-end latency and improving throughput in bandwidth-constrained scenarios.
   * **Distributed Split Speculative Decoding (DSSD)**: Combined speculative decoding with edge-cloud collaboration, innovatively designed network uplink/downlink logic, achieving at least 2X model acceleration. Funded by Huawei to attend 42nd ICML Machine Learning Conference.
@@ -48,6 +54,14 @@ Research Experience
   * **National Key R&D Program Network4AI**: Participated in Network4AI project, focusing on communication resource scheduling and intelligent orchestration algorithm design and verification.
   * **Huawei KubeEdge Open Source Community**: Co-founded Huawei KubeEdge open source community, initiated and promoted Kube-Wireless Group for wireless scenario container networks.
   * **Container Edge Network and Management Tools**: Researched containerized edge networks and management tools, explored resource orchestration and observability systems integrating with 5G networks.
+
+Awards and Recognition
+======
+
+* **Huawei Cloud Technology Innovation Award** (December 2024) - Recognized for outstanding contributions to cloud-native AI large model inference systems
+* **Pengcheng Laboratory Outstanding Intern** (2023) - Awarded for excellence in National Key R&D Program research and leadership
+* **Lead Author of IMTM2030 Report** (2023) - Primary contributor to the IMTM2030 technology roadmap report
+* **Top 10 Technological Advances in Communication 2023** - Recognition for communication and computing collaborative optimization work
 
 Work Experience
 ======
